@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Aref Azizian</Authors>
+    <Copyright>Aref Azizian</Copyright>
+    <Owners>Aref</Owners>
+    <Title>AMIClient</Title>
+  </PropertyGroup>
+
+</Project>
