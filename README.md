@@ -1,6 +1,6 @@
 # AMIClient
 
-Simple .net core client for connecting to asterisk voip server AMI
+Simple .net standard client for connecting to asterisk voip server AMI
 
 How to add package:
 
