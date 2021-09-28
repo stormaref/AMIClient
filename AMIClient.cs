@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Net.Sockets;
 using System.Text;
 
 namespace AMIClient
 {
-    public class AMIClient
+    public class AmiClient
     {
         private TcpClient socket;
         internal static readonly byte[] TerminatorBytes = { 0x0d, 0x0a };
         internal static readonly char[] TerminatorChars = { '\x0d', '\x0a' };
 
-        public AMIClient()
+        public AmiClient()
         {
         }
 
@@ -20,7 +19,7 @@ namespace AMIClient
 
         public event AMIEventHandler DataReceived;
 
-        public void OnDataReceived(string data)
+        private void OnDataReceived(string data)
         {
             DataReceived?.Invoke(this, new AMIEventArgs(data));
         }

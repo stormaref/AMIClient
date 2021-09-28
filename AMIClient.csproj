@@ -8,7 +8,7 @@
     <Owners>Aref</Owners>
     <Title>AMIClient</Title>
     <PackageId>AsteriskAMIClient</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Description>Simple package for connecting to asterisk management interface (AMI)</Description>
   </PropertyGroup>
 
