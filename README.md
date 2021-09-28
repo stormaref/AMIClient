@@ -11,8 +11,8 @@ Install-Package AsteriskAMIClient -Version 1.0.0
 How to use:
 
 ```
-AMIClient voip = new AMIClient();
-voip.DataReceived += Voip_DataReceived; ;
-voip.Run(server, port, user, password);
+var client = new AmiClient();
+client.DataReceived += Voip_DataReceived; ;
+client.Run(server, port, user, password);
 ```
 
