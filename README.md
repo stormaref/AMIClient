@@ -16,7 +16,7 @@ var port = 5038;
 var user = "admin";
 var password = "password";
 var client = new AmiClient();
-client.DataReceived += Voip_DataReceived; ;
+client.DataReceived += Voip_DataReceived;
 client.Run(server, port, user, password);
 ```
 
